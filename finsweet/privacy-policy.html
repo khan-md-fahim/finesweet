@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Finesweet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/innovatelogo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css" /> 
+    <link rel="stylesheet" href="css/style.css" /> 
+    <link rel="stylesheet" href="css/responsive.css" /> 
+
+
+</head>
+
+<body>
+
+
+<!-- navbar part start from here -->
+
+<div id="header"></div>
+
+
+
+<!-- navbar part ends here -->
+
+
+
+
+
+<!-- Privacy Policy part starts from here -->
+
+<section class="privacy-policy">
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">
+      When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help you bring your
+    </p>
+
+    <h2>Lorem ipsum dolor.</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      <a href="#">Excepteur sint occaecat</a> cupidatat non proident.
+    </p>
+    <p>
+      Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat <a href="#">cupidatat</a> non proident.
+    </p>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+    </p>
+  </div>
+</section>
+
+
+
+ 
+<!-- Privacy Policy part ends here -->
+
+
+
+
+<!-- Footer Section Start -->
+
+<div id="footer"></div>
+
+
+<!-- Footer Section End -->
+
+
+
+
+  
+  
+
+
+    <script src="js/bootstrap.bundle.min.js"> </script>    
+
+
+
+    <!-- JavaScript to load header/footer -->
+  <script>
+    // Load Header
+    fetch('header.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      });
+
+    // Load Footer
+    fetch('footer.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
+
+</body>
+
+</html>
